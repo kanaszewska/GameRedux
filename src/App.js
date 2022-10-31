@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import GameBoard from '../src/components/GameBoard';
+import Board from "./components/Board";
+import Turn from "./components/Turn";
+import PlayAgain from "../src/components/PlayAgain";
+import { useSelector } from "react-redux";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const winner = useSelector((state) => state.winner);
+
+  if (winner === "") {
+    return (
+      <div className="app">
+        <div className="view">
+          <Turn />
+        </div>
+        <GameBoard />
+      </div>
+    );
+  } else {
+    return (
+      <div className="app">
+        <div className="view">
+          <Turn />
+        </div>
+        <Board />
+        <PlayAgain />
+      </div>
+    );
+  }
 }
 
 export default App;

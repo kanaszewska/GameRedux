@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+table {
+    padding: 1rem;
+    border: 1rem solid white;
+}
+
+td {
+    padding: 2rem;
+    font-size: 5rem;
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.7);
+    font-family: 'Permanent Marker', cursive;
+}
