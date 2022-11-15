@@ -3,7 +3,7 @@ https://kanaszewska.github.io/GameRedux/
 
 
 # Technologies Used
-HTML5
+* HTML5
 
 CSS3
 
