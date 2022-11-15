@@ -1,3 +1,18 @@
+# This web page is hosted here!
+
+
+
+# Technologies Used
+HTML5
+
+CSS3
+
+JavaScript
+
+
+
+# Screenshots
+
 My site is live at https://kanaszewska.github.io/GameRedux/
 
 
