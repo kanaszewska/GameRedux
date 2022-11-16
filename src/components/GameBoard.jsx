@@ -1,7 +1,15 @@
 import { useSelector, useDispatch } from "react-redux";
-import { moveX, moveO, turnX, turnO, winnerX, winnerO, winnerNobody } from "../state/actions/allActions";
-import { selectedWinner } from './function.js';
-import '../styles/GameBoard.css';
+import {
+  moveX,
+  moveO,
+  turnX,
+  turnO,
+  winnerX,
+  winnerO,
+  winnerNobody,
+} from "../state/actions/allActions";
+import { selectedWinner } from "./dataFunction.js";
+import "../styles/GameBoard.css";
 
 function GameBoard() {
   const dispatch = useDispatch();
@@ -13,13 +21,11 @@ function GameBoard() {
   for (let row = 0; row < 3; row++) {
     const tableRow = [];
     for (let column = 0; column < 3; column++) {
-
       tableRow.push(
-        <td 
+        <td
           className="td"
           key={`${row},${column}`}
           onClick={() => {
-
             if (turn === "X") {
               dispatch(moveX(row, column));
               dispatch(turnO());
@@ -42,9 +48,7 @@ function GameBoard() {
   return (
     <div className="gameboard">
       <table>
-        <tbody>
-          {table}
-        </tbody>
+        <tbody>{table}</tbody>
       </table>
     </div>
   );

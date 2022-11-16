@@ -10,15 +10,12 @@ function ViewBoard() {
       tableRow.push(<td key={`${row},${column}`}>{board[row][column]}</td>);
     }
     table.push(<tr key={`${row}`}>{tableRow}</tr>);
-    
   }
 
   return (
     <div className="viewboard">
       <table>
-        <tbody>
-          {table}
-        </tbody>
+        <tbody>{table}</tbody>
       </table>
     </div>
   );

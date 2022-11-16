@@ -1,7 +1,11 @@
 import { useDispatch } from "react-redux";
-import { cancelBoard, cancelTurn, cancelWinner } from "../state/actions/allActions";
+import {
+  cancelBoard,
+  cancelTurn,
+  cancelWinner,
+} from "../state/actions/allActions";
 
-import '../styles/PlayAgain.css';
+import "../styles/PlayAgain.css";
 
 function PlayAgain() {
   const dispatch = useDispatch();
