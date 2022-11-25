@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/GameRedux/static/css/main.0a7306d7.css",
-    "main.js": "/GameRedux/static/js/main.52e1c706.js",
-    "static/media/img.jpg": "/GameRedux/static/media/img.24fdc629dc719238545b.jpg",
+    "main.css": "/GameRedux/static/css/main.afb8b0f4.css",
+    "main.js": "/GameRedux/static/js/main.803ac8bb.js",
+    "static/media/modal_background.jpg": "/GameRedux/static/media/modal_background.d93c324ff6e3d0012de7.jpg",
+    "static/media/background.jpg": "/GameRedux/static/media/background.24fdc629dc719238545b.jpg",
     "index.html": "/GameRedux/index.html",
-    "main.0a7306d7.css.map": "/GameRedux/static/css/main.0a7306d7.css.map",
-    "main.52e1c706.js.map": "/GameRedux/static/js/main.52e1c706.js.map"
+    "main.afb8b0f4.css.map": "/GameRedux/static/css/main.afb8b0f4.css.map",
+    "main.803ac8bb.js.map": "/GameRedux/static/js/main.803ac8bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a7306d7.css",
-    "static/js/main.52e1c706.js"
+    "static/css/main.afb8b0f4.css",
+    "static/js/main.803ac8bb.js"
   ]
 }
