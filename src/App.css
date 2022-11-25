@@ -10,9 +10,10 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-image: url("../src/styles/image/img.jpg");
+  background-image: url("../src/styles/image/background.jpg");
   background-position: center;
   background-size: cover;
+  
 }
 
 .view {

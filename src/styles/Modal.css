@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.modal-content {
+    width: 500px;
+    height: 620px;
+    background-color: white;
+    background-image: url('./image/modal_background.jpg');
+    background-position: center;
+    background-size: cover;
+    color: black;
+    border-radius: .2rem;
+}
+
+.modal-header,
+.modal-footer {
+    padding: 10px;
+    color: black;
+}
+
+.modal-title {
+    margin: 0;
+}
+
+.modal-title p {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    letter-spacing: 1px;
+    font-family: 'Bungee', cursive;
+    font-size: 1.5rem;
+    margin: .5rem;
+    color: black;
+}
+
+.modal-body {
+    margin-top: 1rem;
+    font-family: 'Frijole', cursive;
+    color: rgb(94, 180, 233);
+    font-size: 1.9rem;
+}
+
+button.play {
+    font-size: 1.5rem;
+    margin-top: 24.5rem;
+    padding: 1rem;
+    background-color: violet;
+    border: 3px solid white;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  button.play:hover {
+    scale: 110%;
+  }
