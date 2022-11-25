@@ -23,6 +23,7 @@
     background-image: url('./image/modal_background.jpg');
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     color: black;
     border-radius: .2rem;
 }
