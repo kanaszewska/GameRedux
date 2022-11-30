@@ -10,6 +10,13 @@ https://kanaszewska.github.io/GameRedux/
 * Redux
 
 
+# Features
+* Input asks for a number from 1 to 10
+* App shows your choice and hints
+* App shows computer choice and information "You won!" when your guess was correct
+* Retro Game Interface
+* Responsive on all devices
+
 # Screenshots
 
 ![project8](https://user-images.githubusercontent.com/106904594/201994413-b45538fd-1971-4935-9cab-e96ef82a63b4.jpg)
