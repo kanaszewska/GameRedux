@@ -16,6 +16,13 @@ https://kanaszewska.github.io/GameRedux/
 * App shows computer choice and information "You won!" when your guess was correct
 * Retro Game Interface
 * Responsive on all devices
+* Responsive design
+Saving and fetching data from the firestore
+React icons
+Mobile first
+Framer motion
+Login, signup, logout with firebase
+Login with Google
 
 # Screenshots
 
