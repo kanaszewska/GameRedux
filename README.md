@@ -9,20 +9,15 @@ https://kanaszewska.github.io/GameRedux/
 * React
 * Redux
 
-
 # Features
-* Input asks for a number from 1 to 10
-* App shows your choice and hints
-* App shows computer choice and information "You won!" when your guess was correct
-* Retro Game Interface
-* Responsive on all devices
 * Responsive design
-Saving and fetching data from the firestore
-React icons
-Mobile first
-Framer motion
-Login, signup, logout with firebase
-Login with Google
+* Two tic-tac-toe players
+* Storing application state using Redux
+* Modal windows show information who won the game
+* I used fonts from Google Fonts
+
+
+
 
 # Screenshots
 
